@@ -12,5 +12,10 @@ A simple usage example:
     import 'package:soundcloud/soundcloud.dart';
 
     main() {
+      String clientId = 'clientId';
+      String clientSecret = 'clientSecret';
+      String username = 'username';
+      String password = 'password';
+    
       SoundcloudClient client = new SoundcloudClient(clientId, clientSecret, username, password);
     }
